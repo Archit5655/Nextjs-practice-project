@@ -1,9 +1,18 @@
+"use client"
 import Link from 'next/link'
+
 import React from 'react'
+import style from './navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className={style.container}>
+      <Link href="/" className={style.logo}>
+        Beautify
+      </Link>
+
+    
+    <div className={style.links}>
       
      
       <Link href="/About"> About </Link>
@@ -11,7 +20,8 @@ const Navbar = () => {
       <Link href="/Contact">Contact </Link>
       <Link href="/portfolio"> portfolio </Link>
       <Link href="/blog"> Blogs </Link>
-
+<button className={style.logout} onClick={()=>{console.log("logout button")}}> Logout</button>
+    </div>
     </div>
     
   )

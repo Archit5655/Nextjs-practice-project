@@ -1,8 +1,9 @@
 import React from 'react'
+import style from './page.module.css'
 
 const page = () => {
   return (
-    <div>
+    <div className={style.container}>
       Contact me
     </div>
   )

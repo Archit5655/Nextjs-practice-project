@@ -17,3 +17,12 @@ a{
   color: inherit;
   
 }
+.container{
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0n auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
