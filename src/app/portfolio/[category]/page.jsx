@@ -1,9 +1,13 @@
 import React from 'react'
+import style from './page.module.css'
 
-const category = () => {
+const category = ({params}) => {
+  console.log(params)
   return (
-    <div>
-    category
+    <div className={style.container}>
+      <h1 className={style.cattitle}> {params.category}</h1>
+      <h3>no need of making this page as it is for my pactice</h3>
+
     </div>
   )
 }

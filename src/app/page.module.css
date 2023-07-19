@@ -12,8 +12,8 @@ gap: 50px;
 }
 .title{
   font-size: 72px;
-  background: linear-gradient(to bottom,rgb(159, 213, 159),grey);
-  -webkit-background-clip: text;
+  background: linear-gradient(to top,rgb(23, 235, 12),rgb(4, 117, 12));
+  -webkit-background-clip:  text;
   -webkit-text-fill-color: transparent;
 }
 .img{
@@ -35,13 +35,4 @@ gap: 50px;
 .desc{
    font-size: 20px;
    font-weight: 300;
-}
-.button{
-  padding: 20px;
-  cursor: pointer;
-  background-color:rgb(159, 213, 159);
-  border: none;
-  border-radius:5px ;
-  width: max-content;
-  color: white;
 }

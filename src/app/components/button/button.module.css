@@ -1,9 +1,11 @@
 .container{
+
     padding: 20px;
     cursor: pointer;
-    background-color:rgb(159, 213, 159);
+    background-color:rgb(52, 167, 52);
     border: none;
-    border-radius:5px ;
+    border-radius:10px ;
     width: max-content;
-    color: white;
+    color: black;
+
   }
