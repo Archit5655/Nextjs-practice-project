@@ -1,9 +1,9 @@
 import React from 'react'
-
+import style from './page.module.css'
 const Blogpost = () => {
   return (
-    <div>
-      Blogpsot
+    <div className={style.container}>
+      
     </div>
   )
 }

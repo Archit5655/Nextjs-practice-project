@@ -26,7 +26,7 @@ a{
   color: #bbb;
 }
 .theme{
-  transition: 1s all ease;
+  transition: 2s all ease;
 }
 .container{
   max-width: 1366px;
