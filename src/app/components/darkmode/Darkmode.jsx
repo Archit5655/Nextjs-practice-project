@@ -1,7 +1,7 @@
 "use client"
 import React,{useContext} from 'react'
 import style from './darkmode.module.css'
-import { Contextapi } from '@/app/context/contextapi'
+import { Contextapi } from '@/app/context/Contextapi'
 
 const Darkmode = () => {
     const {toggle,mode} = useContext(Contextapi)
