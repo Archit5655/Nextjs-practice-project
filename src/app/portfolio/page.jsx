@@ -1,6 +1,10 @@
 import React from 'react'
 import style from './page.module.css'
 import Link from 'next/link'
+export const metadata = {
+  title: "Designer-Portfolio",
+  description: "See our Works",
+};
 const portfolio = () => {
   return (
 

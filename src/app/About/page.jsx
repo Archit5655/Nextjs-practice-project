@@ -2,6 +2,10 @@ import React from "react";
 import style from "./page.module.css";
 import Image from "next/image";
 import Button from "../components/button/Button";
+export const metadata = {
+  title: "Designer-About",
+  description: "This is About section",
+};
 const about = () => {
   return (
     <div className={style.container}>
